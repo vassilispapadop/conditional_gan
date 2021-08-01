@@ -35,3 +35,12 @@ We need to specify the model and the class we wish to generate.
 ```python
 python3 generate.py modes/cgan_generator.h5 pullover
 ```
+
+
+## References
+
+[1] Generative Adversarial Networks (GANs). [link](https://arxiv.org/pdf/1406.2661.pdf)
+
+[2] Are conditional GANs explicitly conditional?. [link](https://arxiv.org/pdf/2106.15011.pdf)
+
+[3] Conditional GAN. [link](https://keras.io/examples/generative/conditional_gan/)
