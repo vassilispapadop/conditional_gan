@@ -23,11 +23,9 @@ Generate 1k images from the Generator and sample 1k real images from
 FashionMNIST, uniformly at random. What’s the accuracy of the Discriminator on this
 new dataset? 
 
-##
-Question: how easy/hard is this task for the Discriminator? Why?
 
-## Api with Flask
-Finally, build the command line interface to call the Generator. It must receive one
-string indicating the class of clothing to generate among “t-shirt” or “pullover”, and
-return an image in the FashionMNIST format as response. Let the script fail
-gracefully if any error is encountered. Make sure the s
+## CLI tool
+We need to specify the model and the class we wish to generate.
+```python
+python3 generate.py modes/cgan_generator.h5 pullover
+```
