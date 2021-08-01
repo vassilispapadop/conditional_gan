@@ -23,7 +23,7 @@ each class, paired with a corresponding one of the same class from FashionMNIST.
 
 ## Prediction
 ![Alt text](images/fake_vs_real_pullover.png?raw=true "T-shirt generated")
-![Alt text](images/fake_vs_real_t-shirt.png?raw=true "Pullover generated")
+![Alt text](images/fake_vs_real_tshirt.png?raw=true "Pullover generated")
 
 Generate 1k images from the Generator and sample 1k real images from
 FashionMNIST, uniformly at random. What’s the accuracy of the Discriminator on this
