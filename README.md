@@ -53,3 +53,5 @@ python3 generate.py models/cgan_generator.h5 pullover
 [2] Are conditional GANs explicitly conditional?. [link](https://arxiv.org/pdf/2106.15011.pdf)
 
 [3] Conditional GAN. [link](https://keras.io/examples/generative/conditional_gan/)
+
+[4] GAN training. [link](https://developers.google.com/machine-learning/gan/training)
