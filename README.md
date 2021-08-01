@@ -29,7 +29,7 @@ Generate 1k images from the Generator and sample 1k real images from
 FashionMNIST, uniformly at random. What’s the accuracy of the Discriminator on this
 new dataset? 
 ![Alt text](images/accuracy_on_new_dataset.png?raw=true "Synthetic dataset accuracy")
-
+As the generator improves with training, the discriminator performance gets worse because the discriminator can't easily tell the difference between real and fake. If the generator succeeds perfectly, then the discriminator has a 50% accuracy.
 
 ## CLI tool
 In order to use the model a cli tool is developed *generate.py*. We need to specify the model and the class we wish to generate.
