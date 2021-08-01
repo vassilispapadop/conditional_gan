@@ -28,6 +28,7 @@ each class, paired with a corresponding one of the same class from FashionMNIST.
 Generate 1k images from the Generator and sample 1k real images from
 FashionMNIST, uniformly at random. What’s the accuracy of the Discriminator on this
 new dataset? 
+![Alt text](images/accuracy_on_new_dataset.png?raw=true "Synthetic dataset accuracy")
 
 
 ## CLI tool
@@ -37,6 +38,13 @@ Usage:
 ```python
 python3 generate.py models/cgan_generator.h5 pullover
 ```
+
+## Future work
+
+* Latent Space Size. Arbitrarily is set to *100*. Experimentation of Latent space size on the impact it has on the quality of generated images.
+
+* Embedding Size. Arbitrarily is set to *50*. Experimentation of Embedding space size on the impact it has on the quality of generated images.
+
 
 ## References
 
