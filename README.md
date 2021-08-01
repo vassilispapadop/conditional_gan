@@ -31,11 +31,12 @@ new dataset?
 
 
 ## CLI tool
-We need to specify the model and the class we wish to generate.
+In order to use the model a cli tool is developed *generate.py*. We need to specify the model and the class we wish to generate.
+The tool simply checks the number of arguments and the validity, loads the model and outputs the generated image into a pre-defined directory.
+Usage:
 ```python
-python3 generate.py modes/cgan_generator.h5 pullover
+python3 generate.py models/cgan_generator.h5 pullover
 ```
-
 
 ## References
 
