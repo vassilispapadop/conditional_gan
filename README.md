@@ -13,7 +13,20 @@ T-shirt/top (0) vs. Pullover (2).
 
 ## Loss Function of Generator and Discriminator
 Write the mathematical formula of the loss functions for Generator and Discriminator.
+The standard MinMax loss function of GAN is the following. The generator tries to minimize the function while the discrimitator to maximize it.
+
+### Standard Loss
 ![Alt text](images/loss_function.png?raw=true "Loss function")
+* D(x) is the discriminator's estimate of the probability that real data instance x is real.
+* Ex is the expected value over all real data instances.
+* G(z) is the generator's output when given noise z.
+* D(G(z)) is the discriminator's estimate of the probability that a fake instance is real.
+* Ez is the expected value over all random inputs to the generator (in effect, the expected value over all generated fake instances G(z)).
+* The formula derives from the cross-entropy between the real and generated distributions.
+
+### Conditional Loss
+The conditioning is usually done by feeding the information y into both the discriminator and the generator, as an additional input layer to it. The only difference between them is that a conditional probability is used for both the generator and the discriminator, instead of the regular one
+![Alt text](images/loss_function_cgan.png?raw=true "Conditional Loss function")
 
 ## Training history(loss)
 Plot the loss curves for Generator and Discriminator, and one example of generated images for
