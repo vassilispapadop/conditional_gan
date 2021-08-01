@@ -1,0 +1,8 @@
+# Basic packages for this notebook
+
+tensorflow
+keras
+pandas
+numpy
+matplotlib
+scikit-learn
