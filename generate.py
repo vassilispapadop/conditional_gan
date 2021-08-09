@@ -54,7 +54,7 @@ def read_args() -> Dict[str,str]:
         'label': sys.argv[2].lower()
     }
 
-def check_args_validity(args):
+def check_args_validity(args) -> None:
     '''
     Checks for validity of arguments. 
     @model_path, checks whether the model exists and can be loaded into keras.
